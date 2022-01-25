@@ -148,7 +148,7 @@ Route29FisherScript:
 Route29CooltrainerMScript:
 	faceplayer
 	opentext
-	checktime DAY
+	checktime DAY | EVE
 	iftrue .day_morn
 	checktime NITE
 	iftrue .nite

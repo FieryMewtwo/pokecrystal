@@ -129,7 +129,8 @@ EVE      EQU 1 << EVE_F
 ANYTIME EQU MORN | DAY | EVE | NITE
 
 ; wTimeOfDayPalset::
-DARKNESS_PALSET EQU (DARKNESS_F << 6) | (DARKNESS_F << 4) | (DARKNESS_F << 2) | DARKNESS_F
+; Must be different from any in ReplaceTimeOfDayPals.BrightnessLevels
+DARKNESS_PALSET EQU (MORN_F << 6) | (DAY_F << 4) | (EVE_F << 2) | NITE_F
 
 ; wBattleAnimFlags::
 	const_def

@@ -10,6 +10,12 @@ NurseDayText:
 	cont "#MON CENTER."
 	done
 
+NurseEveText:
+	text "Good evening!"
+	line "Welcome to our"
+	cont "#MON CENTER."
+	done	
+
 NurseNiteText:
 	text "Good evening!"
 	line "You're out late."
@@ -37,6 +43,15 @@ PokeComNurseDayText:
 	para "CENTER--or the"
 	line "#COM CENTER."
 	done
+
+PokeComNurseEveText:
+	text "Good evening."
+
+	para "This is the #-"
+	line "MON COMMUNICATION"
+
+	para "CENTER--or the"
+	line "#COM CENTER."
 
 PokeComNurseNiteText:
 	text "Good to see you"
@@ -117,6 +132,9 @@ PokeComNursePokerusText:
 DifficultBookshelfText:
 	text "It's full of"
 	line "difficult books."
+	cont "Maybe Fyreire"
+
+	para "would like them."
 	done
 
 PictureBookshelfText:
